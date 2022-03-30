@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: #48aaaa;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: 'custom-font';
+}
+
+.title {
+    font-size: 26px;
+}
+
+.formContainer {
+    max-width: 230px;
+    background-color: rgb(196, 193, 193);
+    padding: 20px;
+    float: right;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'custom-font';
+    src: local('ChicCat-X3M2Z'), url('../assets/fonts/ChicCat-X3M2Z.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
